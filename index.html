@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ellowen X Studio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.8)),
+    url('https://cdn.aceimg.com/e1a7fe465.png');
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+/* efek glow background */
+body::before{
+    content:'';
+    position:absolute;
+    width:500px;
+    height:500px;
+    background:radial-gradient(circle,#ff0055 0%,transparent 70%);
+    filter:blur(90px);
+    opacity:0.4;
+    animation:float 6s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{transform:translateY(0px);}
+    50%{transform:translateY(-20px);}
+    100%{transform:translateY(0px);}
+}
+
+.card{
+    position:relative;
+    width:370px;
+    padding:38px 28px;
+    border-radius:28px;
+    background:rgba(20,20,20,0.55);
+    backdrop-filter:blur(14px);
+    text-align:center;
+    border:1px solid rgba(255,255,255,0.08);
+    box-shadow:0 0 45px rgba(0,0,0,0.6);
+    animation:fadeIn 1s ease;
+    z-index:2;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(25px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.logo{
+    font-size:52px;
+    margin-bottom:18px;
+    animation:pulse 2s infinite;
+}
+
+@keyframes pulse{
+    0%{transform:scale(1);}
+    50%{transform:scale(1.08);}
+    100%{transform:scale(1);}
+}
+
+h1{
+    color:white;
+    font-size:26px;
+    margin-bottom:10px;
+    letter-spacing:1px;
+}
+
+.desc{
+    color:#d0d0d0;
+    font-size:14px;
+    margin-bottom:30px;
+    line-height:1.5;
+}
+
+.btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    width:100%;
+    padding:16px;
+    margin-bottom:16px;
+    border-radius:50px;
+    text-decoration:none;
+    color:white;
+    font-size:17px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.main-btn{
+    background:linear-gradient(45deg,#ff0055,#ff4d88);
+    box-shadow:0 0 30px rgba(255,0,85,0.45);
+}
+
+.main-btn:hover{
+    transform:translateY(-3px) scale(1.02);
+    box-shadow:0 0 40px rgba(255,0,85,0.75);
+}
+
+.second-btn{
+    background:linear-gradient(45deg,#2929ff,#6b6bff);
+    box-shadow:0 0 25px rgba(80,80,255,0.4);
+}
+
+.second-btn:hover{
+    transform:translateY(-3px) scale(1.02);
+    box-shadow:0 0 35px rgba(80,80,255,0.7);
+}
+
+.third-btn{
+    background:linear-gradient(45deg,#00c896,#00ffbf);
+    box-shadow:0 0 25px rgba(0,255,180,0.35);
+}
+
+.third-btn:hover{
+    transform:translateY(-3px) scale(1.02);
+    box-shadow:0 0 35px rgba(0,255,180,0.65);
+}
+
+.footer{
+    margin-top:20px;
+    color:#bcbcbc;
+    font-size:12px;
+    letter-spacing:2px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="logo">🎬</div>
+
+    <h1>ELLOWEN X STUDIO</h1>
+
+    <div class="desc">
+        Premium viral content collection ready to watch anytime.
+    </div>
+
+    <!-- TOMBOL 1 -->
+    <a class="btn main-btn"
+       href="https://contoh-link-1.com"
+       target="_blank">
+       ▶ WATCH PREMIUM
+    </a>
+
+    <!-- TOMBOL 2 -->
+    <a class="btn second-btn"
+       href="https://contoh-link-2.com"
+       target="_blank">
+       ⚡ OPEN FAST SERVER
+    </a>
+
+    <!-- TOMBOL 3 -->
+    <a class="btn third-btn"
+       href="https://contoh-link-3.com"
+       target="_blank">
+       🔥 EXCLUSIVE ACCESS
+    </a>
+
+    <div class="footer">
+        viral • exclusive • trending
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<!-- Histats.com START -->
+<script type="text/javascript">
+var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4984236,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+
+(function() {
+var hs = document.createElement('script');
+hs.type = 'text/javascript';
+hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+
+(document.getElementsByTagName('head')[0] || 
+document.getElementsByTagName('body')[0]).appendChild(hs);
+})();
+</script>
+<!-- Histats.com END -->
