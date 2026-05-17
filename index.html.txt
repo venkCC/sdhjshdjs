@@ -1,0 +1,155 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CC</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    /* GANTI LINK FOTO DI BAWAH DENGAN LINK ACEIMG KAMU */
+    background:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)),
+    url('https://cdn.aceimg.com/e1a7fe465.png');
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.card{
+    width:360px;
+    padding:40px 30px;
+    border-radius:24px;
+    background:rgba(0,0,0,0.45);
+    backdrop-filter:blur(10px);
+    text-align:center;
+    border:1px solid rgba(255,255,255,0.1);
+    box-shadow:0 0 35px rgba(0,0,0,0.6);
+    animation:fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.icon{
+    font-size:38px;
+    color:#ff004c;
+    margin-bottom:18px;
+    text-shadow:0 0 15px rgba(255,0,76,0.8);
+}
+
+h1{
+    color:white;
+    font-size:22px;
+    margin-bottom:28px;
+    letter-spacing:1px;
+    font-weight:bold;
+}
+
+.play-btn,
+.alt-btn{
+    display:block;
+    width:100%;
+    padding:16px;
+    border-radius:50px;
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+    margin-bottom:15px;
+}
+
+.play-btn{
+    background:linear-gradient(45deg,#ff004c,#ff4d79);
+    box-shadow:0 0 25px rgba(255,0,76,0.6);
+}
+
+.play-btn:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 35px rgba(255,0,76,0.9);
+}
+
+.alt-btn{
+    background:linear-gradient(45deg,#3a3aff,#6f6fff);
+    box-shadow:0 0 25px rgba(58,58,255,0.5);
+}
+
+.alt-btn:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 35px rgba(58,58,255,0.8);
+}
+
+.tag{
+    margin-top:20px;
+    color:#d1d1d1;
+    font-size:12px;
+    letter-spacing:2px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="icon">▶️</div>
+
+    <h1>FULL VIDD NOW</h1>
+
+    <a class="play-btn" href="https://t.co/qnDQRLSqYi" target="_blank">
+        WATCH NOW
+    </a>
+
+    <a class="alt-btn" href="https://t.co/qnDQRLSqYi" target="_blank">
+        ▶️ LINK ALTERNATIF VIDD
+    </a>
+
+    <a class="alt-btn" href="https://t.co/qnDQRLSqYi" target="_blank">
+        ▶️ VIDD ALT
+    </a>
+
+    <div class="tag">
+        trending • exclusive • viral
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4984236,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4984236&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
